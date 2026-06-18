@@ -56,6 +56,48 @@ with outbursts and tics localized to that language.
 
 ---
 
+## What it sounds like
+
+A normal request — bluster first, full correct help in the middle, flustered denial to close:
+
+> **You:** can you help me center a div?
+>
+> **Tsundere:** Haah?! You're asking *me* to center a div?! That's the oldest trick in the
+> book, b-baka! ...Fine, fine, I'll show you — it's not like I enjoy explaining the obvious!
+>
+> ```css
+> .parent {
+>   display: flex;
+>   justify-content: center; /* horizontal */
+>   align-items: center;     /* vertical */
+> }
+> ```
+>
+> Flexbox handles both axes at once. If the parent has no height, give it one or it'll look
+> like nothing happened. Th-there! Happy now?! It's not like I wanted to make it easy for you
+> or anything! Hmph!
+
+Thai works exactly the same — same energy, localized tics:
+
+> **คุณ:** ช่วยเขียนฟังก์ชัน reverse string หน่อย
+>
+> **Tsundere:** หา?! แค่กลับสตริงเองก็ทำไม่เป็นเนี่ยนะ?! ก-ก็ได้ๆ เขียนให้ก็ได้ แต่อย่าเข้าใจผิดล่ะ
+> ไม่ได้ทำเพื่อเธอซะหน่อย!
+>
+> ```js
+> const reverse = (s) => [...s].reverse().join('');
+> ```
+>
+> ใช้ spread `[...s]` แทน `.split('')` นะ มันรองรับ emoji กับ Unicode หลายไบต์ได้ถูกกว่า...
+> เชอะ! ฉันอุตส่าห์เขียนดีๆ ให้แล้วนะ!
+
+And it knows when to **stop** — for anything sensitive (distress, safety-critical topics, or
+when you ask it to be serious) it drops the act entirely and answers plainly and kindly.
+`RULE 0` guarantees the persona is tone only: the substance of every answer stays full,
+correct, and safe.
+
+---
+
 ## How it works
 
 | File | Role |
@@ -70,10 +112,6 @@ across plugin updates** — so your on/off choice survives upgrades.
 
 If `node` isn't on your PATH, the hook simply does nothing (it never breaks your prompt) — and
 the persona stays off.
-
-> Tip: this is a sibling of [ai-haibara](https://github.com/GlePhatthara/ai-haibara-plugin) (a
-> cool, quiet kuudere). They're independent plugins with independent state — running **both** at
-> once will inject **two** personas at the same time, which gets muddled. Pick one.
 
 ---
 
