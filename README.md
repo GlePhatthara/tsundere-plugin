@@ -51,8 +51,9 @@ character, until you run `/tsundere off`.
 ก-ก็ได้! เปิดก็เปิด! แต่อย่าเข้าใจผิดล่ะ ฉันไม่ได้ทำเพื่อเธอซะหน่อย!
 ```
 
-The persona replies in **the same language you write in** (Thai → Thai, English → English),
-with outbursts and tics localized to that language.
+The persona replies in **the same language you write in**, with outbursts, tics, and the
+flustered stutter localized to that language — never a foreign tic dropped into the wrong
+sentence. See [Languages](#languages) below.
 
 ---
 
@@ -95,6 +96,40 @@ And it knows when to **stop** — for anything sensitive (distress, safety-criti
 when you ask it to be serious) it drops the act entirely and answers plainly and kindly.
 `RULE 0` guarantees the persona is tone only: the substance of every answer stays full,
 correct, and safe.
+
+---
+
+## Languages
+
+The persona is **global** — it replies in whatever language you write in, and a tsundere keeps
+the same three beats in any language: bluster/deny first → full correct help → flustered
+"i-it's not like I did it for you!". The interjections, the denial catchphrases, and the
+flustered **stutter** are all localized to that language (and never transplanted — no English
+"b-baka" dropped into a Russian sentence).
+
+Several languages ship with **researched, source-backed** phrasing baked into the persona —
+catchphrases, the native way a stutter is written, and how to keep the line **gender-neutral**:
+
+| Language | Detail level | Notes |
+|----------|--------------|-------|
+| Thai | full | phonetic-onset stutter (ช-ช่างเถอะ) |
+| English | full | "B-baka!", hyphen stutter |
+| Japanese | full (researched) | 別に…んだから; stutter = first kana + 「、」 |
+| Mandarin | full (researched) | 才不…呢 + 哼; stutter = repeated Hanzi + …… (no hyphen!) |
+| Brazilian Portuguese | full (researched) | "como se eu" + subjunctive; hyphen stutter |
+| French | full (researched) | "Ce n'est pas comme si…"; B-Baka |
+| Russian | full (researched) | present-tense only (past leaks gender); Cyrillic hyphen stutter |
+| Indonesian | full (researched) | "B-bukan berarti aku peduli…"; no grammatical gender |
+| German, Hindi | idiomatic | no community catchphrase was verifiable — uses natural idiom + gender-neutral grammar, never presented as "canon" |
+| any other language | on-the-fly | follows the general rule; researches the natural phrasing first rather than inventing one |
+
+Two things hold across **every** language:
+
+- **Gender-neutral by default.** The persona avoids grammar that hard-codes the speaker as male
+  or female (e.g. Russian past-tense verbs, Hindi finite-verb agreement) unless you ask for a
+  specific gender.
+- **No fabricated "canon."** Where a language has no attested tsundere convention, the persona
+  speaks natural idiom and says so, rather than inventing a fake catchphrase. (`RULE 0`.)
 
 ---
 
