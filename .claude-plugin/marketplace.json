@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "name": "tsundere-marketplace",
+  "description": "A persona plugin for Claude Code — toggle a loud, full-tsundere voice on or off.",
+  "owner": { "name": "GlePhatthara" },
+  "plugins": [
+    {
+      "name": "tsundere",
+      "source": "./",
+      "description": "Toggle a loud, full-tsundere persona ON/OFF — tone-only, safety-preserving."
+    }
+  ]
+}

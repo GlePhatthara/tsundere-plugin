@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Local plugin runtime state (lives in CLAUDE_PLUGIN_DATA, never in the repo)
+state.txt
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp

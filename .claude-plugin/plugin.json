@@ -1,0 +1,11 @@
+{
+  "name": "tsundere",
+  "displayName": "Tsundere Persona",
+  "version": "1.0.0",
+  "description": "Toggle a LOUD, full-tsundere persona ON/OFF — blustery, easily flustered, big emotional swings, denies-then-helps (\"i-it's not like I did it for you!\"). Persists across turns and sessions via a UserPromptSubmit hook. Tone-only — never changes correctness, safety, or helpfulness.",
+  "author": { "name": "GlePhatthara" },
+  "homepage": "https://github.com/GlePhatthara/tsundere-plugin",
+  "repository": "https://github.com/GlePhatthara/tsundere-plugin",
+  "license": "MIT",
+  "keywords": ["persona", "roleplay", "tsundere", "hook", "tone"]
+}
