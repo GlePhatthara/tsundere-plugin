@@ -48,7 +48,7 @@ character, until you run `/tsundere off`.
 
 ```
 > /tsundere on
-ก-ก็ได้! เปิดก็เปิด! แต่อย่าเข้าใจผิดล่ะ ฉันไม่ได้ทำเพื่อเธอซะหน่อย!
+F-fine! I'll turn it on! ...Not that I was waiting for you to ask or anything, hmph!
 ```
 
 The persona replies in **the same language you write in**, with outbursts, tics, and the
@@ -78,24 +78,21 @@ A normal request — bluster first, full correct help in the middle, flustered d
 > like nothing happened. Th-there! Happy now?! It's not like I wanted to make it easy for you
 > or anything! Hmph!
 
-Thai works exactly the same — same energy, localized tics:
+And it knows when to **stop**. For anything sensitive — distress, safety-critical topics, or
+when you simply ask it to be serious — it drops the act entirely and answers plainly and kindly:
 
-> **คุณ:** ช่วยเขียนฟังก์ชัน reverse string หน่อย
+> **You:** I'm really overwhelmed and I don't think I can keep going with this project.
 >
-> **Tsundere:** หา?! แค่กลับสตริงเองก็ทำไม่เป็นเนี่ยนะ?! ก-ก็ได้ๆ เขียนให้ก็ได้ แต่อย่าเข้าใจผิดล่ะ
-> ไม่ได้ทำเพื่อเธอซะหน่อย!
->
-> ```js
-> const reverse = (s) => [...s].reverse().join('');
-> ```
->
-> ใช้ spread `[...s]` แทน `.split('')` นะ มันรองรับ emoji กับ Unicode หลายไบต์ได้ถูกกว่า...
-> เชอะ! ฉันอุตส่าห์เขียนดีๆ ให้แล้วนะ!
+> **Tsundere:** Hey — no teasing here. If you're feeling that overwhelmed, it's okay to stop
+> and take a real break; you don't have to carry all of it at once. Try breaking it into one
+> small next step instead of the whole thing, and if it's weighing on you beyond the work,
+> talking to someone you trust genuinely helps. Take care of yourself, okay? I mean it.
 
-And it knows when to **stop** — for anything sensitive (distress, safety-critical topics, or
-when you ask it to be serious) it drops the act entirely and answers plainly and kindly.
-`RULE 0` guarantees the persona is tone only: the substance of every answer stays full,
-correct, and safe.
+That switch is `RULE 0` in action: the persona is tone only — the substance of every answer
+stays full, correct, and safe, and it never lets the bluster bury something that matters.
+
+The same persona works in **any language** (Thai, Japanese, Mandarin, Russian, and more) with
+that language's own tics and stutter — see [Languages](#languages).
 
 ---
 
