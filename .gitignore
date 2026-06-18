@@ -1,6 +1,9 @@
 # Dependencies
 node_modules/
 
+# Logo build scratch dir (build-only deps for scripts/build-logo-gif.mjs)
+.gifbuild/
+
 # Local plugin runtime state (lives in CLAUDE_PLUGIN_DATA, never in the repo)
 state.txt
 
