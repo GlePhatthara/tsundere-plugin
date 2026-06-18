@@ -1,40 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="240" height="200" viewBox="0 0 240 200" shape-rendering="crispEdges" role="img" aria-label="Tsundere pixel mascot — the orange rectangular Claude mascot, legs in two pairs, eyes shut and drooping, blushing">
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="200" viewBox="0 0 240 200" shape-rendering="crispEdges" role="img" aria-label="Tsundere pixel mascot — the orange Claude mascot, arms out to the sides, head turned away, eyes shut smiling, blushing">
   <!--
     Tsundere pixel mascot for the `tsundere` Claude Code plugin.
     FAITHFUL to the orange 8-bit Claude mascot:
-      - body is a LANDSCAPE rectangle (wider than tall)
-      - FOUR legs arranged as TWO PAIRS (left pair + right pair, wide gap
-        in the middle) — matches the reference mascot's stance
-      - NO mouth (kept clean, exactly like the original)
-    Tsundere = additive cues only, mascot identity kept intact:
-      - eyes are SHUT, each lash drooping toward the OUTER corner
-        (relaxed / smug "hmph, not even looking at you")
+      - body is a landscape rectangle (104 x 58)
+      - simple arm nubs sticking out each side (like the original)
+      - FOUR legs as TWO PAIRS pushed to the body edges
+      - NO mouth (kept clean, like the original)
+    Tsundere pose (the cues the user chose):
+      - the face (eyes + blush) is shoved LEFT = head turned away ("hmph!")
+      - eyes SHUT in a smiling "‿ ‿" curve (concave up)
       - red blush squares on both cheeks = flustered ("dere")
     Pure pixel grid: every shape is an axis-aligned rect on a 10px cell.
     Transparent background — sits cleanly on GitHub dark/light themes.
   -->
   <g>
-    <!-- ===== BODY — landscape rectangle, x 60..180 (12 cells) x y 60..140 (8 cells) ===== -->
-    <rect x="60" y="60" width="120" height="80" fill="#C8765A"/>
+    <!-- ===== BODY — landscape rectangle, x 68..172 (104 wide) x y 66..124 (58 tall) ===== -->
+    <rect x="68" y="66" width="104" height="58" fill="#C8765A"/>
 
-    <!-- ===== FOUR LEGS — TWO PAIRS pushed to the body edges, wide gap in the middle ===== -->
-    <!-- left pair — outer leg flush with the body's left edge (x=60) -->
-    <rect x="60" y="140" width="12" height="18" fill="#C8765A"/>
-    <rect x="80" y="140" width="12" height="18" fill="#C8765A"/>
-    <!-- right pair — outer leg flush with the body's right edge (x=180) -->
-    <rect x="148" y="140" width="12" height="18" fill="#C8765A"/>
-    <rect x="168" y="140" width="12" height="18" fill="#C8765A"/>
+    <!-- ===== FOUR LEGS — TWO PAIRS pushed to the body edges, lengthened for proportion ===== -->
+    <rect x="68"  y="124" width="12" height="24" fill="#C8765A"/>
+    <rect x="88"  y="124" width="12" height="24" fill="#C8765A"/>
+    <rect x="140" y="124" width="12" height="24" fill="#C8765A"/>
+    <rect x="160" y="124" width="12" height="24" fill="#C8765A"/>
 
-    <!-- ===== EYES — SHUT, relaxed lash: near-flat top with a small droop at the OUTER corner ===== -->
-    <!-- left eye -->
-    <rect x="100" y="86" width="16" height="5" fill="#1a1a1a"/>
-    <rect x="92"  y="89" width="10" height="5" fill="#1a1a1a"/>
-    <!-- right eye (mirror about x=120) -->
-    <rect x="124" y="86" width="16" height="5" fill="#1a1a1a"/>
-    <rect x="138" y="89" width="10" height="5" fill="#1a1a1a"/>
+    <!-- ===== FACE shoved LEFT — head turned away ("hmph!") ===== -->
+    <!-- EYES — SHUT, smiling "‿ ‿" (concave up), shifted left -->
+    <rect x="74"  y="78" width="8"  height="5" fill="#1a1a1a"/>
+    <rect x="82"  y="82" width="10" height="5" fill="#1a1a1a"/>
+    <rect x="92"  y="78" width="8"  height="5" fill="#1a1a1a"/>
+    <rect x="106" y="78" width="8"  height="5" fill="#1a1a1a"/>
+    <rect x="114" y="82" width="10" height="5" fill="#1a1a1a"/>
+    <rect x="124" y="78" width="8"  height="5" fill="#1a1a1a"/>
 
-    <!-- ===== BLUSH (dere) — red cheek squares under the shut eyes ===== -->
-    <rect x="92"  y="102" width="18" height="10" fill="#E2554A"/>
-    <rect x="130" y="102" width="18" height="10" fill="#E2554A"/>
+    <!-- BLUSH (dere) — red cheeks, shifted left to match -->
+    <rect x="76"  y="90" width="18" height="9" fill="#E2554A"/>
+    <rect x="112" y="90" width="18" height="9" fill="#E2554A"/>
+
+    <!-- ===== ARMS — simple nubs sticking out the sides, like the original mascot ===== -->
+    <rect x="56"  y="96" width="12" height="16" fill="#C8765A"/>
+    <rect x="172" y="96" width="12" height="16" fill="#C8765A"/>
   </g>
 </svg>

@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.gif" alt="Tsundere — the orange Claude Code mascot, turned away and blushing" width="240">
+</p>
+
 # Tsundere Persona — a Claude Code plugin
 
 Toggle a **loud, full-tsundere persona** for Claude Code — blustery, proud, easily flustered,

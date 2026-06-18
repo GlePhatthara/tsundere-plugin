@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="200" viewBox="0 0 240 200" shape-rendering="crispEdges" role="img" aria-label="Tsundere pixel mascot — the orange Claude mascot, arms out to the sides, head turned away, eyes squeezed shut (&gt;&lt;), blushing">
+  <!--
+    ALTERNATE eye style of the tsundere mascot: ">< " squeezed-shut eyes
+    (flustered / "hmph!"), for comparison against the smiling "‿ ‿" logo.svg.
+    Everything else is identical to logo.svg.
+  -->
+  <g>
+    <!-- ===== BODY — landscape rectangle ===== -->
+    <rect x="68" y="66" width="104" height="58" fill="#C8765A"/>
+
+    <!-- ===== FOUR LEGS — TWO PAIRS pushed to the body edges ===== -->
+    <rect x="68"  y="124" width="12" height="24" fill="#C8765A"/>
+    <rect x="88"  y="124" width="12" height="24" fill="#C8765A"/>
+    <rect x="140" y="124" width="12" height="24" fill="#C8765A"/>
+    <rect x="160" y="124" width="12" height="24" fill="#C8765A"/>
+
+    <!-- ===== FACE shoved LEFT — head turned away ===== -->
+    <!-- EYES — squeezed shut "&gt; &lt;" (chevrons pointing inward), shifted left -->
+    <!-- left eye ">" (vertex on the right) -->
+    <rect x="74" y="75" width="6" height="3" fill="#1a1a1a"/>
+    <rect x="80" y="78" width="6" height="3" fill="#1a1a1a"/>
+    <rect x="86" y="81" width="6" height="3" fill="#1a1a1a"/>
+    <rect x="80" y="84" width="6" height="3" fill="#1a1a1a"/>
+    <rect x="74" y="87" width="6" height="3" fill="#1a1a1a"/>
+    <!-- right eye "<" (vertex on the left) -->
+    <rect x="124" y="75" width="6" height="3" fill="#1a1a1a"/>
+    <rect x="118" y="78" width="6" height="3" fill="#1a1a1a"/>
+    <rect x="112" y="81" width="6" height="3" fill="#1a1a1a"/>
+    <rect x="118" y="84" width="6" height="3" fill="#1a1a1a"/>
+    <rect x="124" y="87" width="6" height="3" fill="#1a1a1a"/>
+
+    <!-- BLUSH (dere) — red cheeks, shifted left to match -->
+    <rect x="76"  y="90" width="18" height="9" fill="#E2554A"/>
+    <rect x="112" y="90" width="18" height="9" fill="#E2554A"/>
+
+    <!-- ===== ARMS — simple nubs sticking out the sides ===== -->
+    <rect x="56"  y="96" width="12" height="16" fill="#C8765A"/>
+    <rect x="172" y="96" width="12" height="16" fill="#C8765A"/>
+  </g>
+</svg>
